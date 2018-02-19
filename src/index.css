@@ -1,0 +1,55 @@
+/* Settings
+ * ---------------------------------- */
+
+:root {
+  /* Type */
+  --sansSerif: 'Roboto', sans-serif;
+  --fontWeight-300: 300;
+
+  /* Colors */
+  --white: #fff;
+  --black: #000;
+  --gray: #8a8a8a;
+  --shuttleGray: #5e6368;
+  --capeCod: #3d4245;
+  --blue: #6052f8;
+
+  /* Z-Index */
+  --zIndex-100: 100;
+
+  /* UI */
+  --gutterHorizontal: 3rem;
+}
+
+/* Box Sizing
+ * ---------------------------------- */
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+/* Page
+ * ---------------------------------- */
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: var(--sansSerif);
+  font-size: 1.6rem;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
