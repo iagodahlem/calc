@@ -37,16 +37,16 @@ export class App extends Component {
               <section className='HistoryList'>
                 {history.map(({ display, result }, i) => (
                   <div className='History' key={i}>
-                    <h2 className='History__display'>{display}</h2>
-                    <h3 className='History__result'>{result}</h3>
+                    <h2 className='History__display u-wordBreak'>{display}</h2>
+                    <h3 className='History__result u-wordBreak'>{result}</h3>
                   </div>
                 ))}
               </section>
             ) : (
               <Fragment>
                 <section className='Screen'>
-                  <h2 className='Screen__display'>{current.display}</h2>
-                  <h3 className='Screen__result'>{current.result}</h3>
+                  <h2 className='Screen__display u-wordBreak'>{current.display}</h2>
+                  <h3 className='Screen__result u-wordBreak'>{current.result}</h3>
                 </section>
 
                 <section className='Keyboard'>
